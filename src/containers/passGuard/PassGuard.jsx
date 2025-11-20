@@ -13,7 +13,7 @@ const PassGuard = () => {
         <h1 className='gradient__text'>
           The unbreakable shield for your digital life
         </h1>
-        <p>
+        <p className='cursor-target'>
           Explore the Vault
         </p>
       </div>

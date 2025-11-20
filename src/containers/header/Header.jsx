@@ -10,14 +10,14 @@ const Header = () => {
   return (
     <div className='gpt3__header section-padding' id='home'>
       <div className='gpt3__header-content'>
-        <h1 className='gradient__text'> Let's Build Some Password Or Manage It </h1>
+        <h1 className='gradient__text'> Let's  Build Some Password Or Manage It </h1>
         <p>PassGuard is a secure, privacy-first password manager designed to simplify and strengthen your digital life. It creates, stores, and autofills strong, unique passwords so you never have to remember them again. .</p>
 
         <div className='gpt3__header-content__input'>
           <div className="email-wrapper">
             <div className="email-glow">
               <input
-                className="email-input"
+                className="email-input cursor-target"
                 type="email"
                 placeholder="Add Your Email Address"
                 required
@@ -25,7 +25,7 @@ const Header = () => {
             </div>
           </div>
           <div className='container'>
-            <button type='button' className='button'  >Get Started</button>
+            <button type='button' className='button  cursor-target'  >Get Started</button>
           </div>
         </div>
         <div className='gpt3__header-content__people'>

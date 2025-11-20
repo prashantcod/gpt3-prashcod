@@ -10,7 +10,7 @@ const Cta = () => {
                    </h3>
           </div>
           <div className='passGuard__cta-btn'>
-              <button type='button'>Get Started</button>
+              <button type='button' className='cursor-target'>Get Started</button>
           </div>
     </div>
   )

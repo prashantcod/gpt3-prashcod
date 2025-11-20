@@ -7,19 +7,19 @@ const Brand = () => {
   return (
      <>
     <div className='gpt3__brand-names secton__padding'>
-           <div >
+           <div className='cursor-target'>
                 <img src={insta} alt="Instagram" />
            </div>
-           <div>
+           <div className='cursor-target'>
                 <img src={google} alt="google" />
            </div>
-           <div>
+           <div className='cursor-target'>
                 <img src={facebook} alt="facebook" />
            </div>
-           <div>
+           <div className='cursor-target'>
                 <img src={reddit} alt="reddit" />
            </div>
-           <div>
+           <div className='cursor-target'>
                 <img src={quora} alt="quora" />
            </div>
           

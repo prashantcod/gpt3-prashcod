@@ -9,8 +9,8 @@ const Footers = () => {
              <h1 className="gradient__text"> Do You want to Step into the zone Then Use PassGuard for Securing Passwords </h1>
        </div>
       
-       <div className="passGuard__footers-button"> 
-          <p> Request Early Access</p>
+       <div className="passGuard__footers-button cursor-target"> 
+          <p > Request Early Access</p>
        </div>
        <div className="passGuard__footers-links"> 
             <div className="passGuard__footers-links_logo"> 

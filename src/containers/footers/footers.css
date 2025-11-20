@@ -124,12 +124,13 @@
      .passGuard__footers-heading h1{ 
        font-size: 40px;
        line-height: 45px;
-     
      }
      .passGuard__footers-links{ 
          flex-direction: column;
          align-items: center;
          justify-content: center;
+         margin-top: -9rem;
+         text-align: center;
      }
      .passGuard__footers-links div{ 
         align-items: center;

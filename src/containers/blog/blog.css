@@ -70,7 +70,15 @@
 
 }
 
-@media screen and (max-width : 590px){
+@media screen and (max-width : 550px){
+ 
+    .passGuard__blog-container{ 
+        display: flex ;
+          flex-direction: column-reverse;
+          align-items: center;
+          text-align: center;
+    }
+
     .passGuard__blog-container_groupB{ 
         grid-template-columns: repeat(1 , 1fr);
     }
@@ -80,7 +88,7 @@
          }
 
     .passGuard__blog-heading h1 { 
-       font-size : 46px ; 
-       line-height : 52px ; 
+       font-size : 42px ; 
+       line-height : 50px ; 
     }
 }

@@ -7,12 +7,12 @@ import TargetCursor from '../../TargetCursor';
 //making a varible which is used to wrap the react div's 
 const Menu = () => (
   <>
-    <p> <a href="#Home">Home</a></p>
-    <p> <a href="#wgpt3">Vault</a></p>
-    <p> <a href="#features">Security Check</a></p>
-    <p> <a href="#possibility">Password Generator</a></p>
-    <p> <a href="#blog">Blog</a></p>
-    <p> <a href="#footers">About Us</a></p>
+    <p className='cursor-target'> <a href="#Home" >Home</a></p>
+    <p className='cursor-target'> <a href="#wgpt3" >Vault</a></p>
+    <p className='cursor-target'> <a href="#features" >Security Check</a></p>
+    <p className='cursor-target'> <a href="#possibility" >Password Generator</a></p>
+    <p className='cursor-target'> <a href="#blog" >Blog</a></p>
+    <p className='cursor-target'> <a href="#footers" >About Us</a></p>
   </>
 )
 
@@ -24,15 +24,15 @@ const Navbar = () => {
       <div className='gpt3__navbar-links'>
         <div className='gpt3__navbar-links_logo'>
           <img className="logo" src={logo} alt="logo" />
-          <span className="brand-name">PassGuard</span>
+          <span className="brand-name cursor-target">PassGuard</span>
         </div>
-        <div className='gpt3__navbar-links_container'>
+        <div className='gpt3__navbar-links_container '>
           <Menu />
         </div>
       </div>
       <div className='gpt3__navbar-sign'>
-        <p>Sign In </p>
-        <button type='button'>Sign Up</button>
+        <p className='cursor-target'>Sign In </p>
+        <button type='button' className='cursor-target'>Sign Up</button>
       </div>
       <div className='gpt3__navbar-menu'>
         {toggleMenu
@@ -43,8 +43,8 @@ const Navbar = () => {
             <div className='gpt3__navbar-menu_container-links'>
               <Menu />
               <div className='gpt3__navbar-menu_container-links-sign'>
-                <p>Sign In </p>
-                <button type='button'>Sign Up</button>
+                <p className='cursor-target'> Sign In </p>
+                <button type='button' className='cursor-target'>Sign Up</button>
               </div>
             </div>
           </div>

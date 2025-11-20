@@ -114,10 +114,18 @@
 }
 
 @media screen and (max-width: 550px) {
+    .passGuard__info{ 
+         flex-direction: column;
+         align-items: center; 
+         text-align: center;
+         width: 100%;
+         margin-left: -0.15rem;
+    }
    
     .passGuard__info-containers{ 
          justify-content: center;
          min-width: 100%;
+        
          /* padding : 5rem ; */
     }
     /* Customizing feature component as per needs */
@@ -133,9 +141,15 @@
     }
 
     .passGuard__info-Heading h1 {
+        align-items: center;
+        text-align: center;
         font-size: 28px;
         line-height: 40px;
        
+    }
+    .passGuard__info-Heading{ 
+        align-items: center;
+         text-align: center;
     }
     .passGuard__info-feature .passGuard__info-feature_feature{ 
          flex-direction: column;
@@ -152,8 +166,10 @@
     /* Customizing feature component as per needs */
     .passGuard__info-containers  .passGuard__info-containers__feature {
         min-width: 100%;
+
     }
     .passGuard__info-containers{ 
          width: 100%;
+
     }
 }

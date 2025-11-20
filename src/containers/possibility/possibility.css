@@ -1,0 +1,72 @@
+.passGuard__possiblity {
+    background: var(--color-black);
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin-left : 5rem ; 
+}
+
+.passGuard__possiblity-image { 
+    flex : 1; 
+    display: flex;
+    flex-direction: row;
+}
+
+.passGuard__possiblity-image img{ 
+   
+   width: 100%;
+   height: 100%;
+   object-fit: cover; 
+  
+}
+
+.passGuard__possiblity-content{ 
+   flex : 1 ; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start; 
+   
+}
+
+.passGuard__possiblity-content h4 {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 23px;
+      line-height: 43px; 
+      color: #71E5FF;
+      margin-bottom: 2rem;
+}
+.passGuard__possiblity-content h4:last-child{
+    color: #FF8A71; 
+    margin-top: 2rem;
+}
+.passGuard__possiblity-content p{
+     margin-top : 2rem ;
+     font-family: var(--font-family);
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 23px;
+     color : var(--color-text);
+
+}
+.passGuard__possiblity-content h1{ 
+     font-family: var(--font-family);
+     font-weight: 800;
+     font-size:47px;
+     line-height: 55px;
+}
+
+@media screen and (max-width : 999px ) {
+     .passGuard__possiblity{ 
+         flex-direction: column ;
+     }
+     .passGuard__possiblity-image{ 
+        margin : 1rem 0 ;
+     }
+     .passGuard__possiblity-content{ 
+        margin-top: 2rem ;
+     }
+
+
+}

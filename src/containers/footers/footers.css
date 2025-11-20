@@ -1,0 +1,139 @@
+.passGuard__footers{ 
+   margin-top: 5rem;
+   display : flex ; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: var(--color-footer);
+}
+
+.passGuard__footers-heading{ 
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.passGuard__footers-heading h1{ 
+    font-family: var(--font-family);
+    font-size: 62px;
+    font-weight: 800; 
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.passGuard__footers-button{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1.5rem;
+   border-radius: 15px;
+   border : 1px solid white; 
+   text-align: center;
+   margin-bottom: 10rem;
+   cursor: pointer;
+
+}
+
+.passGuard__footers-button p{ 
+     box-sizing: border-box;
+     font-family: var(--font-family);
+     font-size: 18px;
+     word-spacing: 2px;
+     color: white;
+     line-height: 21px;
+     font-weight: 500;
+}
+
+.passGuard__footers-links{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+.passGuard__footers-links div{
+    width: 280px;
+    margin : 1rem ; 
+}
+.passGuard__footers-links_logo{
+    display: flex; 
+     flex-direction: column;
+    
+}
+.passGuard__footers-links_logo img{ 
+     width: 125px;
+     height: 89px;
+}
+
+.passGuard__footers-links_logo p{
+    font-family: var(--font-family);
+     font-size: 12px;
+     line-height: 14px;
+     color: white;
+}
+
+.passGuard__footers-links_div{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.passGuard__footers-links_div h4{ 
+    font-family: var(--font-family);
+     font-size: 18px;
+     line-height: 23px;
+     font-weight: 600;
+      color: white;
+      margin-bottom: 1rem;
+}
+.passGuard__footers-links_div p{ 
+    font-family: var(--font-family);
+     font-size: 14px;
+     line-height: 17px;
+     color: white;
+     margin : 0.5rem 0 ; 
+     cursor : pointer; 
+
+}
+
+.passGuard__footers-copyright{ 
+    margin-top: 2rem;
+    color: white; 
+    width: 100%;
+}
+
+.passGuard__footers-copyright p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+ }
+
+
+@media screen and (max-width: 890px) {
+     .passGuard__footers-heading h1{ 
+       font-size: 44px;
+       line-height: 50px;
+     
+     }
+}
+
+
+@media screen and (max-width: 550px) {
+     .passGuard__footers-heading h1{ 
+       font-size: 40px;
+       line-height: 45px;
+     
+     }
+     .passGuard__footers-links{ 
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+     .passGuard__footers-links div{ 
+        align-items: center;
+        justify-content: center;
+     }
+     
+}

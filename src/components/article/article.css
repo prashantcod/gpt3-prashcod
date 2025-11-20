@@ -1,0 +1,79 @@
+.passGuard__blog-container_article{ 
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   background:  var(--color-footer);
+}
+
+.passGuard__blog-container_article-image{
+  width: 100%;
+  max-width : 100%; 
+  /* height: 200px; */
+  overflow: hidden ; 
+  background: var(--color-footer);
+}
+
+.passGuard__blog-container_article-image img{
+   width: 100%; 
+   height: 100%; 
+   display : block ; 
+   object-fit : cover ; 
+
+}
+
+.passGuard__blog-container_article-content{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding : 1rem 1.5rem ;
+}
+
+.passGuard__blog-container_article-content p { 
+      font-family: var(--font-family);
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 35px;
+      color : white; 
+
+}
+.passGuard__blog-container_article-content h5 { 
+      font-family: var(--font-family);
+      font-weight:inherit;
+      font-size: 16px;
+      line-height: 25px;
+      color : var(--color-text); 
+
+}
+
+
+.passGuard__blog-container_article-content h3 { 
+     font-family: var(--font-family);
+      font-weight: 800 ; 
+      font-size: 25.11px;
+      line-height: 30px;
+      color : white; 
+      margin-bottom: 1.5rem;
+}
+
+.passGuard__blog-container_article-content p:last-child { 
+     cursor : pointer; 
+     margin-top: 1rem;
+  
+}
+
+@media screen and (max-width : 559px){ 
+     .passGuard__blog-container_article-content h3{ 
+         font-size : 18px ; 
+         line-height : 28px ; 
+     }
+
+}
+
+@media screen and (max-width : 430px){ 
+     .passGuard__blog-container_article-content h3{ 
+         font-size : 12px ; 
+         line-height : 21px ; 
+     }
+}
+

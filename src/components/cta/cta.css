@@ -1,0 +1,70 @@
+.passGuard__cta{ 
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin : 4rem ; 
+    border-radius: 2rem;
+    background: var(--gradient-bar);
+}
+
+.passGuard__cta p{ 
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 30px;
+   color : #eed8d3;
+   margin-bottom: 0.5rem;
+}
+
+.passGuard__cta h3{ 
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 35px;
+    color : #0E0E0E;
+}
+.passGuard_ctn-btn{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem ;
+  
+  margin-left: 2rem;
+  border-radius: 60px;
+}
+
+.passGuard_ctn-btn button{ 
+   box-shadow:inset 10px 10px 10px rgb(39, 36, 36) ; 
+   font-weight: bold;
+   min-width: 150px;
+}
+
+@media screen and (max-width : 650px){ 
+    .passGuard__cta{ 
+       flex-direction: column;
+       gap: 2rem ;
+       margin-left : 5rem ; 
+      
+    }
+    .passGuard_ctn-btn  { 
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width : 450px){ 
+    .passGuard__cta{ 
+       margin: 4rem 2rem ;
+       margin-left : 5rem ; 
+      
+    }
+    .passGuard_ctn-content h3{ 
+        font-size : 18px ; 
+        line-height: 32px ;
+    }
+    .passGuard_ctn-btn  button  { 
+        font-size: 18px;  
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,48 @@
+/* Base button look */
+button {
+  font-size: 1.2em;
+  padding: 0.72em 1.2em;
+  border-radius: 0.7em;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000b4;
+  position: relative;
+  z-index: 1;
+}
+
+/* Outer gradient border container */
+.container {
+  position: relative;
+  margin-left: -0.5rem;
+  padding: 2.5px; /* <-- this defines the border thickness (5px) */
+  background: linear-gradient(90deg, #ee82ee, #8a2be2, #0000ff);
+  border-radius: 0.99em;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+
+/* Glow effect */
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #ee82ee, #8a2be2, #0000ff);
+  z-index: 0;
+  filter: blur(0);
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+/* Hover glow: soft blur + bright border */
+.container:hover::before {
+  opacity: 1;
+  filter: blur(1.2em);
+}
+
+.container:active::before {
+  filter: blur(0.2em);
+}
